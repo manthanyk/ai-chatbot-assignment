@@ -61,6 +61,8 @@ The backend serves the frontend as static files, so one Node.js web service can 
 
 The project-specific technical documentation assignment is available in [docs/technical-documentation.pdf](docs/technical-documentation.pdf). Its editable source is [docs/technical-documentation.md](docs/technical-documentation.md), and the architecture diagram source is [docs/architecture.mmd](docs/architecture.mmd).
 
+The walkthrough video is available on [Google Drive](https://drive.google.com/file/d/1p33inOZWW9pSv2DyY4dUOkjpOsP9Kdtq/view?usp=drivesdk), shared as **Anyone with the link — Viewer**.
+
 ## Project Structure
 
 ```text
