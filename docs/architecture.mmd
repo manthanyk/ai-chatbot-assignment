@@ -1,0 +1,17 @@
+flowchart LR
+    U[User in browser] --> F[Static frontend\nfrontend/index.html\nfrontend/app.js\nfrontend/styles.css]
+    F -->|GET /chat; JSON conversation history| B[Express backend\nbackend/server.js]
+    B -->|Bearer token; POST /chat/completions| O[OpenRouter API\nconfigurable model]
+    O -->|assistant text| B
+    B -->|JSON reply object| F
+    B -.->|GET /health| H[Health endpoint]
+    R[Render web service\nrender.yaml] -. hosts .-> F
+    R -. hosts .-> B
+    classDef browser fill:#eaf2ff,stroke:#2f6fed,color:#12315b;
+    classDef backend fill:#fff3e6,stroke:#e67e22,color:#6b3510;
+    classDef external fill:#eaf8ef,stroke:#2e9d59,color:#124c2a;
+    classDef deploy fill:#f3eafa,stroke:#8e44ad,color:#4c2365;
+    class U,F browser;
+    class B,H backend;
+    class O external;
+    class R deploy; 
