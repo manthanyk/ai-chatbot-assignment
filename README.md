@@ -57,10 +57,9 @@ The backend serves the frontend as static files, so one Node.js web service can 
 **Frontend:** Same service URL after deployment, because Express serves `frontend/`.  
 **Backend:** Same service URL with `/chat` and `/health` routes.
 
-## Pull Request Submission
+## Technical Documentation
 
-**Pull request:** [GitHub pull request #1](https://github.com/manthanyk/ai-chatbot-assignment/pull/1)  
-**Video explanation:** [Orbit Chat AI Chatbot Demonstration](https://drive.google.com/file/d/123FoR28eTOb6DNuJ1ygTAn3rDrK8SPty/view?usp=sharing) — shared as anyone with the link can view. The recording is a screen demonstration of the live local chatbot, code, and README; no camera feed was available in this environment.
+The project-specific technical documentation assignment is available in [docs/technical-documentation.pdf](docs/technical-documentation.pdf). Its editable source is [docs/technical-documentation.md](docs/technical-documentation.md), and the architecture diagram source is [docs/architecture.mmd](docs/architecture.mmd).
 
 ## Project Structure
 
