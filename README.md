@@ -53,14 +53,14 @@ The backend serves the frontend as static files, so one Node.js web service can 
 | Environment variable | `OPENROUTER_API_KEY=<your-secret-key>` |
 | Optional model variable | `OPENROUTER_MODEL=openai/gpt-4o-mini` |
 
-**Live Deployment:** Add the public Render URL here after deployment.  
-**Frontend:** Same service URL, because Express serves `frontend/`.  
+**Live Deployment:** Not deployed in this session because no Render account or deployment credential was available. The included `render.yaml` is ready for a Render web service.  
+**Frontend:** Same service URL after deployment, because Express serves `frontend/`.  
 **Backend:** Same service URL with `/chat` and `/health` routes.
 
 ## Pull Request Submission
 
-**Pull request:** Add the GitHub pull request URL here after pushing the feature branch.  
-**Video explanation:** Add the public Google Drive video URL here after upload.
+**Pull request:** [GitHub pull request #1](https://github.com/manthanyk/ai-chatbot-assignment/pull/1)  
+**Video explanation:** [Orbit Chat AI Chatbot Demonstration](https://drive.google.com/file/d/123FoR28eTOb6DNuJ1ygTAn3rDrK8SPty/view?usp=sharing) — shared as anyone with the link can view. The recording is a screen demonstration of the live local chatbot, code, and README; no camera feed was available in this environment.
 
 ## Project Structure
 
