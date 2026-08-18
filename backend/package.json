@@ -1,0 +1,17 @@
+{
+  "name": "ai-chatbot-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure Express backend for the AI chatbot assignment",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "NODE_ENV=test node --test ../tests/backend.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

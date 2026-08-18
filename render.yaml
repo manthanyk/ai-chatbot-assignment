@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: orbit-secure-ai-chatbot
+    runtime: node
+    plan: free
+    buildCommand: cd backend && npm install --no-audit --no-fund
+    startCommand: cd backend && npm start
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: OPENROUTER_MODEL
+        value: openai/gpt-4o-mini
+      - key: APP_URL
+        sync: false
